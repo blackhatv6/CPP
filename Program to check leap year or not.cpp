@@ -15,8 +15,11 @@ cin>> year;
         }
 
     }
-else
-    cout<<"No it is not a leap year"<<"\n";
+else  if(year%4==0)
+        {
+            cout<<"Yes its a leap year"<<"\n";
+        } 
+ else cout<<"No it is not a leap year"<<"\n";
 
 }
 cout<<"Do you want to restart the program y or n:"<<"\n";
